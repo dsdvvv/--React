@@ -1,5 +1,6 @@
-// 根组件: 使用其他组件
+// 根组件: 使用其他组件 || 路由
 import React from 'react';
+import { Button } from 'antd-mobile'
 
 class App extends React.Component {
   componentDidMount () {
@@ -7,7 +8,9 @@ class App extends React.Component {
   }
   render () {
     return (
-      <div>App</div>
+      <div>
+        <Button>close</Button>
+      </div>
     )
   }
 }
